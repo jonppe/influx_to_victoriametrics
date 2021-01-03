@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+ @author Johannes Aalto
+ SPDX-License-Identifier: Apache-2.0
+"""
 
 import os
 
@@ -11,6 +15,7 @@ from influxdb_client import InfluxDBClient
 
 try:
     from dotenv import load_dotenv
+
     load_dotenv(dotenv_path=".env")
 except ImportError:
     pass

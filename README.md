@@ -41,3 +41,7 @@ optional arguments:
   --vm-addr VM_ADDR, -a VM_ADDR
                         VictoriaMetrics server
 ~~~~
+
+Author: Johannes Aalto
+
+SPDX-License-Identifier: Apache-2.0
